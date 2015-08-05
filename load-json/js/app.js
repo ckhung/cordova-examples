@@ -21,21 +21,12 @@ function init() {
     if (! (_ready.device && _ready.dom)) return;
     var canvas = d3.select("#display svg");
     canvas.style("border", "1px solid blue");
-//	.attr("width", 400).attr("height",400)
-    canvas.append("text").text("閃躲的圓")
-	.attr("x", 10).attr("y", 360)
-	.attr("font-size", "16px").attr("fill", "blue");
-    canvas.append("text").text("an evasive circle")
-	.attr("x", 10).attr("y", 380)
-	.attr("font-size", "16px").attr("fill", "blue");
     var circle = canvas.append("circle")
 	.attr("cx", canvas.attr("width")/2)
 	.attr("cy", canvas.attr("height")/2)
-	.attr("r", 30).style("fill", "#80c");
-    circle.on("mouseover", function(d) {
-	circle.transition().
-	attr("cx",Math.random()*canvas.attr("width")).
-	attr("cy",Math.random()*canvas.attr("height"))
+	.attr("r", 30).style("fill", "#0cc");
+    d3.json("map.json", function(json) {
+	alert(json.x);
     });
 }
 
