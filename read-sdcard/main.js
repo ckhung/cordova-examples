@@ -1,5 +1,6 @@
 // https://codinggrapes.wordpress.com/2012/05/04/read-xml-from-sd-card-in-android-phonegap/
 // http://www.raymondcamden.com/2012/03/09/PhoneGaps-File-API
+// http://www.raymondcamden.com/2014/11/05/Cordova-Example-Writing-to-a-file
 // http://rickluna.com/wp/2014/01/accessing-external-storage-in-android-phonegap-3-3/
 
 // http://www.html5rocks.com/en/tutorials/es6/promises/
