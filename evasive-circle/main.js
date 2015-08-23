@@ -1,6 +1,8 @@
 var _ready = { device: 0, dom: 0 };
 // http://stackoverflow.com/questions/7432815/jquery-wait-for-multiple-complete-events
 
+alert('hello');
+
 function isApp() { return(document.URL.indexOf('file:///android_asset')>=0); }
 // http://stackoverflow.com/questions/8068052/phonegap-detect-if-running-on-desktop-browser
 
