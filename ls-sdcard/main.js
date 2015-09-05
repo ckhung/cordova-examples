@@ -1,12 +1,4 @@
-// https://codinggrapes.wordpress.com/2012/05/04/read-xml-from-sd-card-in-android-phonegap/
-// http://www.raymondcamden.com/2012/03/09/PhoneGaps-File-API
-// http://www.raymondcamden.com/2014/11/05/Cordova-Example-Writing-to-a-file
-// http://rickluna.com/wp/2014/01/accessing-external-storage-in-android-phonegap-3-3/
-
-// http://www.html5rocks.com/en/tutorials/es6/promises/
-// http://complexitymaze.com/2014/03/03/javascript-promises-a-comparison-of-libraries/
-// http://12devs.co.uk/articles/promises-an-alternative-way-to-approach-asynchronous-javascript/
-// https://coderwall.com/p/yf6mea/using-the-file-api-without-callbacks
+// http://newtoypia.blogspot.tw/2015/09/cordova-file-plugin.html
 
 var _ready = { device: 0, dom: 0 };
 // http://stackoverflow.com/questions/7432815/jquery-wait-for-multiple-complete-events
