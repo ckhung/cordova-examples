@@ -1,0 +1,11 @@
+path.road {
+  stroke: #222;
+  stroke-width: 1px;
+  fill: none;
+}
+
+path.landuse {
+  stroke: #420;
+  stroke-width: 0.5px;
+  fill: #8a8;
+}
